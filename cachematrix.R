@@ -1,7 +1,10 @@
 ## Put comments here that give an overall description of what your
 ## functions do
 
-##	cache matrix inverse 
+##      Calculate matrix inverse and save it - then do not recalculate if it is already saved
+##      but only return already saved value
+##
+
 
 makeCacheMatrix <- function(x = matrix()) {
 	
@@ -20,7 +23,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-B
+
 ## calculate the matrix inverse using the code in makeCacheMatrix function above 
 
 cacheSolve <- function(x, ...) {
